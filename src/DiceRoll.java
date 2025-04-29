@@ -18,7 +18,7 @@ public class DiceRoll {
             rollMessage = "Nice roll!";
         }
 
-        System.out.println("You rolled a: " + diceRoll);
+        System.out.println("You rolled: " + diceRoll);
         System.out.println(rollMessage);
     }
 }
