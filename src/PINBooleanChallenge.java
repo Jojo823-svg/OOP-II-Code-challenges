@@ -1,6 +1,6 @@
 public class PINBooleanChallenge {
     int correctPin= 2025;
-    int enteredPin=1988;
+    int enteredPin=1978;
 
     void checkPin() {
         if (enteredPin == correctPin) {
