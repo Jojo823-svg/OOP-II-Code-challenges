@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PinCheck {
-    int correctPin= 2025;
+    int correctPin = 2026;
     int enteredPin;
 
     void checkPin() {
@@ -11,17 +11,15 @@ public class PinCheck {
             System.out.println("Incorrect Pin");
         }
     }
+
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your PIN:");
-        int correctPin= scanner.nextInt();
-        PinCheck p= new PinCheck();
+        int pin = scanner.nextInt();
+
+        PinCheck p = new PinCheck();
+        p.enteredPin = pin;
         p.checkPin();
-
-
-
-
-
     }
 }
